@@ -1,5 +1,5 @@
 category: Video
-requires: libdvdread4 libfontconfig1 libfreetype6 libfribidi0 libiconv2 libImageMagick1 libpng14 libxml2
+requires: libdvdread4 libfontconfig1 libfreetype6 libfribidi0 libiconv2 libMagickCore5 libpng14 libxml2
 sdesc: "DVD-Video disc authoring tool"
 ldesc: "DVDAuthor is a set of tools to help you author the file and 
 directory structure of a DVD-Video disc, including programmatic commands 
