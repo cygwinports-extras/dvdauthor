@@ -1,7 +1,0 @@
-DESCRIPTION="DVD-Video authoring tool"
-HOMEPAGE="http://dvdauthor.sourceforge.net/"
-SRC_URI="mirror://sourceforge/dvdauthor/${P}.tar.gz"
-SRC_DIR=${PN}
-
-# Europeans may want to rebuild this for PAL
-CYGCONF_ARGS="--enable-default-video-format=NTSC"
