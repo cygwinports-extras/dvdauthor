@@ -1,6 +1,6 @@
 NAME="dvdauthor"
 VERSION=0.7.1
-RELEASE=2
+RELEASE=3
 CATEGORY="Video"
 SUMMARY="DVD-Video disc authoring tool"
 DESCRIPTION="DVDAuthor is a set of tools to help you author the file and
@@ -9,8 +9,8 @@ for implementing interactive behaviour. It is driven by command lines and
 XML control files, though there are other programs that provide GUI-based
 front ends if you prefer."
 HOMEPAGE="http://dvdauthor.sourceforge.net/"
-SRC_URI="mirror://sourceforge/dvdauthor/${P}.tar.gz"
-SRC_DIR=${PN}
+SRC_URI="mirror://sourceforge/dvdauthor/${NAME}-${VERSION}.tar.gz"
+SRC_DIR=${NAME}
 
 # Europeans may want to rebuild this for PAL
 CYGCONF_ARGS="--enable-default-video-format=NTSC"
