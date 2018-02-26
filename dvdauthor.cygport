@@ -1,6 +1,6 @@
 NAME="dvdauthor"
 VERSION=0.7.2
-RELEASE=1
+RELEASE=2
 CATEGORY="Video"
 SUMMARY="DVD-Video disc authoring tool"
 DESCRIPTION="DVDAuthor is a set of tools to help you author the file and
